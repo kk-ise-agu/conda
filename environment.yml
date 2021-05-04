@@ -1,13 +1,21 @@
-name: example-environment
+name: autogis-environment
+
 channels:
   - conda-forge
+
 dependencies:
-  - numpy
-  - psutil
-  - toolz
+  - python=3.8
   - matplotlib
-  - dill
-  - pandas
-  - partd
+  - geopandas
+  - geojson
+  - pysal
+  - mapclassify
+  - osmnx
+  - pyrosm
+  - geopy
+  - geojson
+  - rasterio
+  - contextily
+  - folium
+  - mplleaflet
   - bokeh
-  - dask
